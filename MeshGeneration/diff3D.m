@@ -2,7 +2,7 @@ clc; clear; % clear the screen and memory
 L = 0.01; % a 1 cm domain
 Ly = L/10;
 Lz = L/10;
-Nx = 5; % number of cells %%%%%
+Nx = 3; % number of cells %%%%%
 Ny = 1;
 Nz = Ny;
 m = createMesh3D(Nx,Ny,Nz,L, Ly,Lz); % create the mesh
